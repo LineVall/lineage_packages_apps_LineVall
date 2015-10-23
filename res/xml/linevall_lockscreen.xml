@@ -18,5 +18,15 @@
      xmlns:settings="http://schemas.android.com/apk/res-auto"
      xmlns:lineage="http://schemas.android.com/apk/res-auto"
      android:title="@string/linevall_lockscreen" >
+    <PreferenceCategory
+        android:key="lockscreen_media_art_options"
+        android:title="@string/lockscreen_media_art_options_title">
 
+        <com.linevall.unsa.preferences.SecureSettingSwitchPreference
+            android:key="lockscreen_media_metadata"
+            android:title="@string/lockscreen_media_art_title"
+            android:summary="@string/lockscreen_media_art_summary"
+            android:defaultValue="false" />
+
+    </PreferenceCategory>
 </PreferenceScreen>

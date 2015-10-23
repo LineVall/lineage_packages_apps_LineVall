@@ -87,4 +87,9 @@
     <string name="powermenu_users">Users</string>
     <string name="powermenu_logout">Logout</string>
     <string name="powermenu_emergency">Emergency</string>
+
+    <!-- Lock screen cover art -->
+    <string name="lockscreen_media_art_options_title">Lock screen media art</string>
+    <string name="lockscreen_media_art_title">Media cover art</string>
+    <string name="lockscreen_media_art_summary">Display media cover art when available</string>
 </resources>
