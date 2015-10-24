@@ -14,7 +14,15 @@
     xmlns:android="http://schemas.android.com/apk/res/android"
     android:title="@string/power_menu_title"
     xmlns:settings="http://schemas.android.com/apk/res/com.android.settings">
+        <com.linevall.unsa.preferences.SystemSettingSwitchPreference
+            android:key="lockscreen_enable_power_menu"
+            android:title="@string/lockscreen_enable_power_menu_title"
+            android:summary="@string/lockscreen_enable_power_menu_summary"
+            android:defaultValue="true" />
 
+     <PreferenceCategory
+         android:key="powermenu_power"
+         android:title="@string/powermenu_power">
          <com.linevall.unsa.preferences.SystemSettingSwitchPreference
             android:key="powermenu_power"
             android:title="@string/powermenu_power"
@@ -59,5 +67,5 @@
             android:key="powermenu_logout"
             android:title="@string/powermenu_logout"
             android:defaultValue="false" />
-
+     </PreferenceCategory>
 </PreferenceScreen>
