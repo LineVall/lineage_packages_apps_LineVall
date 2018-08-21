@@ -19,6 +19,19 @@
      xmlns:lineage="http://schemas.android.com/apk/res-auto"
      android:title="@string/linevall_statbar" >
     <PreferenceCategory
+        android:title="@string/statusbar_items_category"
+        android:key="statusbar_items_category">
+
+        <Preference
+            android:title="@string/statusbar_items_title"
+            android:summary="@string/statusbar_items_summary" >
+            <intent android:action="android.intent.action.MAIN"
+                    android:targetPackage="com.android.systemui"
+                    android:targetClass="com.android.systemui.tuner.StatusbarItemsActivity" />
+        </Preference>
+    </PreferenceCategory>
+
+    <PreferenceCategory
         android:title="@string/status_bar_clock_title">
 
         <com.linevall.unsa.preferences.SystemSettingListPreference
