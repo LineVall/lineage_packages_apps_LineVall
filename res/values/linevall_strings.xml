@@ -67,6 +67,7 @@
 
     <!-- Preference -->
     <string name="gesture">Gesture</string>
+    <string name="other_category_title">Others</string>
 
      <!-- AOSP Gestures -->
      <string name="aosp_gesture_preference">System settings</string>
@@ -96,4 +97,8 @@
     <string name="lockscreen_media_art_title">Media cover art</string>
     <string name="lockscreen_media_art_summary">Display media cover art when available</string>
     <string name="lockscreen_media_blur_title">Media artwork blur level</string>
+
+    <!-- Partial screenshot -->
+    <string name="click_partial_screenshot_title">Click to partial screenshot</string>
+    <string name="click_partial_screenshot_summary">Short click Volume Down and Power to take partial screenshot</string>
 </resources>
