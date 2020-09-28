@@ -56,4 +56,10 @@
         android:title="@string/charging_animation_title"
         android:summary="@string/charging_animation_summary"
         android:defaultValue="true" />
+
+    <SwitchPreference
+        android:key="fingerprint_success_vib"
+        android:title="@string/fprint_sucess_vib_title"
+        android:summary="@string/fprint_sucess_vib_summary"
+        android:persistent="false" />
 </PreferenceScreen>
