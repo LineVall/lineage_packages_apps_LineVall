@@ -65,6 +65,8 @@
     <!-- Preference -->
     <string name="gesture">Gesture</string>
     <string name="other_category_title">Others</string>
+    <string name="power_buttons_title">Power Buttons</string>
+    <string name="volume_buttons_title">Volume Buttons</string>
 
      <!-- AOSP Gestures -->
      <string name="aosp_gesture_preference">System settings</string>
@@ -102,4 +104,8 @@
     <!-- VolumeKeys Swap -->
     <string name="swap_volume_keys_on_rotation_title">Swap volume buttons</string>
     <string name="swap_volume_keys_on_rotation_summary">Change volume buttons behaviour when rotating the device</string>
+
+    <!-- Volume panel switch -->
+    <string name="volume_panel_on_left_title">Switch volume panel location</string>
+    <string name="volume_panel_on_left_summary">Move volume panel to the left</string>
 </resources>
