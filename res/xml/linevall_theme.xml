@@ -18,5 +18,9 @@
      xmlns:settings="http://schemas.android.com/apk/res-auto"
      xmlns:lineage="http://schemas.android.com/apk/res-auto"
      android:title="@string/linevall_theme_title" >
-
+    <Preference
+        android:key="monet_engine"
+        android:title="@string/monet_engine_title"
+        android:summary="@string/monet_engine_summary"
+        android:fragment="com.linevall.unsa.fragment.MonetEngine"/>
 </PreferenceScreen>
