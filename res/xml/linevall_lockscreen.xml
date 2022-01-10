@@ -51,6 +51,8 @@
             android:defaultValue="100" />
       </PreferenceCategory>
 
+    <PreferenceCategory
+        android:title="@string/fingerprint">
     <com.linevall.unsa.preferences.SystemSettingSwitchPreference
         android:key="charging_animation"
         android:title="@string/charging_animation_title"
@@ -62,4 +64,11 @@
         android:title="@string/fprint_sucess_vib_title"
         android:summary="@string/fprint_sucess_vib_summary"
         android:persistent="false" />
+
+    <com.linevall.unsa.preferences.SystemSettingSwitchPreference
+        android:key="auth_ripple_enabled"
+        android:title="@string/enable_fingerprint_ripple_effect_title"
+        android:summary="@string/enable_fingerprint_ripple_effect_summary"
+        android:defaultValue="true" />
+    </PreferenceCategory>
 </PreferenceScreen>
