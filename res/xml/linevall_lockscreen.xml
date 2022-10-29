@@ -18,6 +18,19 @@
      xmlns:settings="http://schemas.android.com/apk/res-auto"
      xmlns:lineage="http://schemas.android.com/apk/res-auto"
      android:title="@string/linevall_lockscreen" >
+    <com.linevall.unsa.preferences.SystemSettingSwitchPreference
+        android:key="sysui_keyguard_show_battery_bar"
+        android:title="@string/keyguard_show_battery_title"
+        android:summary="@string/keyguard_show_battery_summary"
+        android:defaultValue="false" />
+
+    <com.linevall.unsa.preferences.SystemSettingSwitchPreference
+        android:key="sysui_keyguard_show_battery_bar_always"
+        android:title="@string/keyguard_show_battery_always_title"
+        android:summary="@string/keyguard_show_battery_always_summary"
+        android:dependency="sysui_keyguard_show_battery_bar"
+        android:defaultValue="false" />
+
     <PreferenceCategory
         android:key="lockscreen_media_art_options"
         android:title="@string/lockscreen_media_art_options_title">
