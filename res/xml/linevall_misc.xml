@@ -51,5 +51,11 @@
             android:title="@string/swap_volume_keys_on_rotation_title"
             android:summary="@string/swap_volume_keys_on_rotation_summary"
             android:defaultValue="false" />
+
+        <!-- Notification guts kill app button -->
+        <com.linevall.unsa.preferences.SystemSettingSwitchPreference
+            android:key="notification_guts_kill_app_button"
+            android:title="@string/notification_guts_kill_app_button_title"
+            android:summary="@string/notification_guts_kill_app_button_summary" />
     </PreferenceCategory>
 </PreferenceScreen>
