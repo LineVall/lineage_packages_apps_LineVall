@@ -31,9 +31,10 @@
         <com.linevall.unsa.preferences.SystemSettingSeekBarPreference
             android:key="lockscreen_media_blur"
             android:title="@string/lockscreen_media_blur_title"
-            android:max="25"
+            android:max="100"
             settings:min="0"
-            settings:units="dp"
-            android:defaultValue="25"/>
+            settings:units="%"
+            settings:interval="5"
+            android:defaultValue="100" />
       </PreferenceCategory>
 </PreferenceScreen>
