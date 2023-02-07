@@ -56,6 +56,13 @@
             android:summary="@string/quick_settings_vibrate_summary"
             android:defaultValue="false"/>
 
+    <com.linevall.unsa.preferences.SecureSettingSwitchPreference
+        android:key="qstile_requires_unlocking"
+        android:title="@string/qstile_requires_unlocking_title"
+        android:summary="@string/qstile_requires_unlocking_summary"
+        android:dependency="secure_lockscreen_qs_disabled"
+        android:defaultValue="true" />
+
     <PreferenceCategory
         android:title="@string/qs_tile_animation_title">
         <com.linevall.unsa.preferences.SystemSettingListPreference
