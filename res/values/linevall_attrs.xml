@@ -23,4 +23,16 @@
 
     <attr name="secureValue" format="string" />
 
+    <!-- Value to pass to callback when restore button is pressed -->
+    <declare-styleable name="ColorPickerPreference">
+        <attr name="defaultColorValue" format="integer" />
+        <attr name="ledPreview" format="boolean" />
+        <attr name="alphaSlider" format="boolean" />
+    </declare-styleable>
+
+    <!-- Base attributes available to OverlaySwitchPreference. -->
+    <declare-styleable name="OverlaySwitchPreference">
+        <attr name="dkey" format="string" />
+    </declare-styleable>
+    
 </resources>
