@@ -26,6 +26,17 @@
             android:summary="@string/notification_sound_vib_screen_on_summary"
             android:defaultValue="true" />
 
+    <com.linevall.unsa.preferences.SystemSettingSwitchPreference
+          android:key="statusbar_colored_icons"
+          android:title="@string/statusbar_colored_icons_title"
+          android:summary="@string/statusbar_colored_icons_summary"
+          android:defaultValue="false" />
+
+</PreferenceCategory>
+
+<PreferenceCategory
+        android:title="@string/heads_up">
+
         <com.linevall.unsa.preferences.GlobalSettingSwitchPreference
             android:key="heads_up_notifications_enabled"
             android:title="@string/notification_heads_up_title"
