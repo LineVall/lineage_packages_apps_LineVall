@@ -19,4 +19,11 @@
      xmlns:lineage="http://schemas.android.com/apk/res-auto"
      android:title="@string/linevall_misc_title" >
 
+        <!-- Netflix Spoof -->
+        <com.linevall.unsa.preferences.SystemPropertySwitchPreference
+            android:key="persist.sys.pixelprops.netflix"
+            android:title="@string/netflix_spoof_title"
+            android:summary="@string/netflix_spoof_summary"
+            android:defaultValue="false" />
+
 </PreferenceScreen>
