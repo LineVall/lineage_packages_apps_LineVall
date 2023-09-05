@@ -17,6 +17,18 @@
 
     <!-- LineVall Customize -->
     <string name="customize_dashboard_title">LineVall Set</string>
+
+    <!-- Notification -->
+    <string name="linevall_notification">Notification</string>
+
+    <!-- linevall: Misc -->
+    <string name="linevall_misc_title">Michellenous</string>
+
+    <!-- linevall: QS -->
+    <string name="linevall_qs_title">QS Settings</string>
+
+    <!-- linevall: Themes -->
+    <string name="linevall_theme_title">Themes</string>
  
     <!-- Custom seekbar -->
     <string name="custom_seekbar_value">Value: <xliff:g id="v">%s</xliff:g></string>

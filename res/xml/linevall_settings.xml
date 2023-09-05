@@ -37,4 +37,33 @@
             <intent android:action="org.lineageos.lineageparts.BUTTON_SETTINGS" />
         </lineageos.preference.RemotePreference>
 
+     <!-- Notification -->
+     <Preference
+          android:id="@+id/notification"
+          android:title="@string/linevall_notification"
+          android:fragment="com.linevall.unsa.fragment.Notification"
+          android:layout="@layout/preference_category_statusbar" />
+
+     <!-- QS -->
+     <Preference
+          android:id="@+id/qs"
+          android:title="@string/linevall_qs_title"
+          android:fragment="com.linevall.unsa.fragment.Qs"
+          android:layout="@layout/preference_category_qs"
+          />
+
+       <!-- Theme -->
+   	<Preference
+           android:id="@+id/theme"
+           android:title="@string/linevall_theme_title"
+           android:fragment="com.linevall.unsa.fragment.Theme"
+           android:layout="@layout/preference_category_statusbar" />
+
+       <!-- Misc -->
+   	<Preference
+           android:id="@+id/misc"
+           android:title="@string/linevall_misc_title"
+           android:fragment="com.linevall.unsa.fragment.Misc"
+           android:layout="@layout/preference_category_qs" />
+
 </PreferenceScreen>
