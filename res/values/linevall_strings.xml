@@ -39,4 +39,8 @@
     <string name="color_down_arrow" translatable="false">"↓"</string>
     <string name="longpress_info">Longpress box to save color</string>
 
+    <!-- Add Ons -->
+    <string name="linevall_statusbar_title">Statu Bar</string>
+    <string name="button">Button</string>
+
 </resources>

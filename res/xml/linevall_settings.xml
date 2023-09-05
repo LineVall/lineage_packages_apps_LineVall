@@ -19,4 +19,22 @@
     xmlns:lineage="http://schemas.android.com/apk/res-auto"
     android:title="@string/customize_dashboard_title" >
 
+        <!-- Status Bar -->
+        <lineageos.preference.RemotePreference
+          android:id="@+id/statbar"
+          android:key="status_bar_settings"
+          android:title="@string/linevall_statusbar_title"
+          android:layout="@layout/preference_category_statusbar">
+            <intent android:action="org.lineageos.lineageparts.STATUS_BAR_SETTINGS" />
+        </lineageos.preference.RemotePreference>
+
+        <!-- Button -->
+        <lineageos.preference.RemotePreference
+          android:id="@+id/button"
+          android:key="button_settings"
+          android:title="@string/button"
+          android:layout="@layout/preference_category_qs">
+            <intent android:action="org.lineageos.lineageparts.BUTTON_SETTINGS" />
+        </lineageos.preference.RemotePreference>
+
 </PreferenceScreen>
