@@ -68,4 +68,16 @@
             android:summary="@string/fp_error_vibrate_summary"
             android:defaultValue="true" />
 
+    <!-- Gaming mode -->
+    <Preference
+        android:key="gaming_mode"
+        android:title="@string/gaming_mode_title"
+        android:summary="@string/gaming_mode_summary">
+
+        <intent
+            android:action="android.intent.action.MAIN"
+            android:targetPackage="io.chaldeaprjkt.gamespace"
+            android:targetClass="io.chaldeaprjkt.gamespace.settings.SettingsActivity" />
+    </Preference>
+
 </PreferenceScreen>
