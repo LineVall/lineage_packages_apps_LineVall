@@ -25,6 +25,15 @@
         android:summary="@string/qs_show_data_usage_summary"
         android:defaultValue="true" />
 
+        <!-- QS Header Image -->
+        <com.linevall.unsa.preferences.SystemSettingSeekBarPreference
+            android:key="qs_header_image"
+            android:title="@string/qs_header_image_title"
+            android:defaultValue="0"
+            settings:interval="1"
+            android:max="11"
+            android:min="0" />
+
         <com.linevall.unsa.preferences.SystemSettingSwitchPreference
             android:key="secure_lockscreen_qs_disabled"
             android:title="@string/disable_qs_title"
