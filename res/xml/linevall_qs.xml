@@ -25,4 +25,9 @@
         android:summary="@string/qs_show_data_usage_summary"
         android:defaultValue="true" />
 
+        <com.linevall.unsa.preferences.SystemSettingSwitchPreference
+            android:key="secure_lockscreen_qs_disabled"
+            android:title="@string/disable_qs_title"
+            android:summary="@string/disable_qs_summary"/>
+
 </PreferenceScreen>

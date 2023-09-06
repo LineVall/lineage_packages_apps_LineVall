@@ -91,4 +91,8 @@
     <string name="bluetooth_battery_title">Bluetooth battery status</string>
     <string name="bluetooth_battery_summary">Display battery status for the connected bluetooth device, if available</string>
 
+    <!-- Disable QS -->
+    <string name="disable_qs_title">Hide QS on secure lock screen</string>
+    <string name="disable_qs_summary">Prevent access to QS tiles on secure lock screen</string>
+
 </resources>
