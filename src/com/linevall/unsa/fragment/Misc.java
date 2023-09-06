@@ -93,6 +93,8 @@ public class Misc extends SettingsPreferenceFragment {
                 Settings.System.FP_ERROR_VIBRATE, 1, UserHandle.USER_CURRENT);
         Settings.System.putIntForUser(resolver,
                 Settings.System.FP_SUCCESS_VIBRATE, 1, UserHandle.USER_CURRENT);
+        Settings.System.putIntForUser(resolver,
+                Settings.System.SCREENSHOT_SHUTTER_SOUND, 1, UserHandle.USER_CURRENT);
     }
 
     @Override
