@@ -54,6 +54,7 @@
     <!-- Add Ons -->
     <string name="linevall_statusbar_title">Statu Bar</string>
     <string name="button">Button</string>
+    <string name="fingerprint">Fingerprint</string>
 
     <!-- Netflix Spoof -->
     <string name="netflix_spoof_title">Netflix Spoof</string>
@@ -94,5 +95,9 @@
     <!-- Disable QS -->
     <string name="disable_qs_title">Hide QS on secure lock screen</string>
     <string name="disable_qs_summary">Prevent access to QS tiles on secure lock screen</string>
+
+    <!-- Fingerprint Ripple Effect -->
+    <string name="enable_fingerprint_ripple_effect_title">Ripple effect</string>
+    <string name="enable_fingerprint_ripple_effect_summary">Show ripple effect on unlock with fingerprint</string>
 
 </resources>
