@@ -64,6 +64,7 @@ public class Misc extends SettingsPreferenceFragment {
     private static final String KEY_FP_ERROR_VIBRATE = "fp_error_vibrate";
     private static final String SYS_GAMES_SPOOF = "persist.sys.pixelprops.games";
     private static final String SYS_PHOTOS_SPOOF = "persist.sys.pixelprops.gphotos";
+    private static final String SYS_NETFLIX_SPOOF = "persist.sys.spoof_netflix";
 
     private Preference mRippleEffect;
     private Preference mFingerprintVib;
