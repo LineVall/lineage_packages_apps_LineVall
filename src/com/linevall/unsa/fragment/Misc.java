@@ -22,6 +22,7 @@ import android.hardware.fingerprint.FingerprintManager;
 import android.os.Bundle;
 import android.os.Handler;
 import android.os.UserHandle;
+import android.os.SystemProperties;
 import android.provider.Settings;
 import android.provider.SearchIndexableResource;
 
@@ -50,6 +51,8 @@ import java.util.Collections;
 import java.util.List;
 import java.util.ArrayList;
 
+import lineageos.providers.LineageSettings;
+
 @SearchIndexable
 public class Misc extends SettingsPreferenceFragment {
 
@@ -59,6 +62,7 @@ public class Misc extends SettingsPreferenceFragment {
     private static final String KEY_RIPPLE_EFFECT = "enable_ripple_effect";
     private static final String KEY_FP_SUCCESS_VIBRATE = "fp_success_vibrate";
     private static final String KEY_FP_ERROR_VIBRATE = "fp_error_vibrate";
+    private static final String SYS_PHOTOS_SPOOF = "persist.sys.pixelprops.gphotos";
 
     private Preference mRippleEffect;
     private Preference mFingerprintVib;
