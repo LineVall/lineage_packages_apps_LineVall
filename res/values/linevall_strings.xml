@@ -56,6 +56,8 @@
     <string name="button">Button</string>
     <string name="fingerprint">Fingerprint</string>
     <string name="spoof">Spoofing</string>
+    <string name="addon">Add-Ons</string>
+    <string name="anim">Animation</string>
 
     <!-- Netflix Spoof -->
     <string name="netflix_spoof_title">Netflix Spoof</string>

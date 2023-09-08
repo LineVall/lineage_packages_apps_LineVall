@@ -42,12 +42,8 @@
         android:title="@string/use_games_spoof_title"
         android:summary="@string/use_games_spoof_summary" />
 
-    <!-- Screenshot Sound  -->
-    <com.linevall.unsa.preferences.SystemSettingSwitchPreference
-        android:key="screenshot_shutter_sound"
-        android:title="@string/screenshot_shutter_sound_title"
-        android:summary="@string/screenshot_shutter_sound_summary"
-        android:defaultValue="true" />
+<PreferenceCategory
+        android:title="@string/anim" />
 
         <com.linevall.unsa.preferences.SystemSettingListPreference
             android:key="screen_off_animation"
@@ -83,6 +79,16 @@
             android:title="@string/fp_error_vibrate_title"
             android:summary="@string/fp_error_vibrate_summary"
             android:defaultValue="true" />
+
+<PreferenceCategory
+        android:title="@string/addon" />
+
+    <!-- Screenshot Sound  -->
+    <com.linevall.unsa.preferences.SystemSettingSwitchPreference
+        android:key="screenshot_shutter_sound"
+        android:title="@string/screenshot_shutter_sound_title"
+        android:summary="@string/screenshot_shutter_sound_summary"
+        android:defaultValue="true" />
 
     <!-- Gaming mode -->
     <Preference
