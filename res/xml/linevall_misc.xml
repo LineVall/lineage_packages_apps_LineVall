@@ -59,6 +59,13 @@
         android:summary="@string/charging_animation_summary"
         android:defaultValue="true" />
 
+    <!-- Squiggle animation -->
+    <com.linevall.unsa.preferences.SecureSettingSwitchPreference
+        android:key="hide_media_squiggle_animation"
+        android:title="@string/hide_squiggle_animation_title"
+        android:summary="@string/hide_squiggle_animation_summary"
+        android:defaultValue="false" />
+
 <PreferenceCategory
         android:title="@string/fingerprint" />
 
