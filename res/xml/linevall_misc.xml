@@ -102,6 +102,14 @@
             android:summary="@string/lockscreen_media_art_summary"
             android:defaultValue="false" />
 
+        <com.linevall.unsa.preferences.SystemSettingListPreference
+            android:key="lockscreen_albumart_filter"
+            android:dependency="lockscreen_media_metadata"
+            android:title="@string/lockscreen_albumart_filter_title"
+            android:entries="@array/lockscreen_albumart_filter_entries"
+            android:entryValues="@array/lockscreen_albumart_filter_values"
+            android:defaultValue="0" />
+
 <PreferenceCategory
         android:title="@string/addon" />
 
