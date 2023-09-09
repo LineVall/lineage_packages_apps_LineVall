@@ -178,4 +178,8 @@
     <string name="notification_material_dismiss_style_9">Checklist</string>
     <string name="notification_material_dismiss_style_10">Magnet</string>
 
+    <!-- Lock screen cover art -->
+    <string name="lockscreen_media_art_title">Media cover art</string>
+    <string name="lockscreen_media_art_summary">Display media cover art when available</string>
+
 </resources>
