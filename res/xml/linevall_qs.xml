@@ -39,4 +39,26 @@
             android:title="@string/disable_qs_title"
             android:summary="@string/disable_qs_summary"/>
 
+        <com.linevall.unsa.preferences.SystemSettingSwitchPreference
+            android:key="notification_material_dismiss"
+            android:title="@string/notification_material_dismiss_title"
+            android:summary="@string/notification_material_dismiss_summary"
+            android:defaultValue="false" />
+
+        <com.linevall.unsa.preferences.SystemSettingListPreference
+            android:key="notification_material_dismiss_style"
+            android:title="@string/notification_material_dismiss_style_title"
+            android:entries="@array/notification_material_dismiss_style_entries"
+            android:entryValues="@array/notification_material_dismiss_style_values"
+            android:defaultValue="0"
+            android:dependency="notification_material_dismiss" />
+
+        <com.linevall.unsa.preferences.SystemSettingSeekBarPreference
+            android:key="notification_material_dismiss_bgstyle"
+            android:title="@string/notification_material_dismiss_bgstyle_title"
+            android:dependency="notification_material_dismiss"
+            android:defaultValue="0"
+            android:max="4"
+            settings:min="0" />
+
 </PreferenceScreen>

@@ -162,4 +162,20 @@
     <string name="lockscreen_battery_info_title">Lockscreen charging info</string>
     <string name="lockscreen_battery_info_summary">Show charging current, voltage, wattage and battery temperature on lockscreen while charging</string>
 
+    <!-- Material dismiss all button for notifications -->
+    <string name="notification_material_dismiss_title">Clear all notification button</string>
+    <string name="notification_material_dismiss_summary">Replace clear all notification text with material style floating button</string>
+    <string name="notification_material_dismiss_bgstyle_title">Clear all button background style</string>
+    <string name="notification_material_dismiss_style_title">Clear all button icon style</string>
+    <string name="notification_material_dismiss_style_1">Default</string>
+    <string name="notification_material_dismiss_style_2">Trash bin</string>
+    <string name="notification_material_dismiss_style_3">Broom</string>
+    <string name="notification_material_dismiss_style_4">Pacman</string>
+    <string name="notification_material_dismiss_style_5">Forbidden</string>
+    <string name="notification_material_dismiss_style_6">Cross</string>
+    <string name="notification_material_dismiss_style_7">Recycle</string>
+    <string name="notification_material_dismiss_style_8">Eraser</string>
+    <string name="notification_material_dismiss_style_9">Checklist</string>
+    <string name="notification_material_dismiss_style_10">Magnet</string>
+
 </resources>
