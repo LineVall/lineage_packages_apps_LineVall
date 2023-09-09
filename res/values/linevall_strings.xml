@@ -58,6 +58,7 @@
     <string name="spoof">Spoofing</string>
     <string name="addon">Add-Ons</string>
     <string name="anim">Animation</string>
+    <string name="lockscreen">Lockscreen</string>
 
     <!-- Netflix Spoof -->
     <string name="netflix_spoof_title">Netflix Spoof</string>
@@ -156,5 +157,9 @@
     <!-- Squiggle animation -->
     <string name="hide_squiggle_animation_title">Hide squiggle animation</string>
     <string name="hide_squiggle_animation_summary">Hide media panel squiggle animation, after changing you need to switch music, pause music or move the progress bar to apply</string>
+
+    <!-- Lockscreen battery info indicator  -->
+    <string name="lockscreen_battery_info_title">Lockscreen charging info</string>
+    <string name="lockscreen_battery_info_summary">Show charging current, voltage, wattage and battery temperature on lockscreen while charging</string>
 
 </resources>
