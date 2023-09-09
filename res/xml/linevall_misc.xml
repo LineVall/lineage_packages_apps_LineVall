@@ -45,6 +45,12 @@
 <PreferenceCategory
         android:title="@string/anim" />
 
+    <com.linevall.unsa.preferences.GlobalSettingSwitchPreference
+        android:key="pie_animation_style"
+        android:title="@string/pie_animation_style_title"
+        android:summary="@string/pie_animation_style_summary"
+        android:defaultValue="false" />
+
         <com.linevall.unsa.preferences.SystemSettingListPreference
             android:key="screen_off_animation"
             android:title="@string/screen_off_animation_title"
@@ -117,6 +123,12 @@
             android:defaultValue="30"
             android:max="80"
             settings:min="1" />
+
+        <com.linevall.unsa.preferences.GlobalSettingSwitchPreference
+            android:key="wake_when_plugged_or_unplugged"
+            android:title="@string/wake_when_plugged_or_unplugged_title"
+            android:summary="@string/wake_when_plugged_or_unplugged_summary"
+            android:defaultValue="@*android:bool/config_unplugTurnsOnScreen" />
 
 <PreferenceCategory
         android:title="@string/addon" />
