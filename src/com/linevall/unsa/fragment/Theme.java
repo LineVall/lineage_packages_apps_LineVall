@@ -38,6 +38,8 @@ import com.android.settings.SettingsPreferenceFragment;
 import com.android.settings.search.BaseSearchIndexProvider;
 import com.android.settingslib.search.SearchIndexable;
 
+import com.linevall.unsa.fragment.ui.PulseSettings;
+
 import java.util.Locale;
 import android.text.TextUtils;
 import android.view.View;
@@ -60,6 +62,7 @@ public class Theme extends SettingsPreferenceFragment {
 
     public static void reset(Context mContext) {
         ContentResolver resolver = mContext.getContentResolver();
+        PulseSettings.reset(mContext);
     }
 
     @Override

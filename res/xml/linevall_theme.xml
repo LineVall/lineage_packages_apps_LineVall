@@ -34,4 +34,11 @@
         android:summary="@string/pulse_on_new_tracks_summary"
         android:defaultValue="true" />
 
+    <!-- Pulse music visualizer -->
+    <Preference
+        android:key="pulse_settings"
+        android:title="@string/pulse_settings"
+        android:summary="@string/pulse_settings_summary"
+        android:fragment="com.linevall.unsa.fragment.ui.PulseSettings" />
+
 </PreferenceScreen>
