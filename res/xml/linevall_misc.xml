@@ -130,6 +130,12 @@
             android:summary="@string/wake_when_plugged_or_unplugged_summary"
             android:defaultValue="@*android:bool/config_unplugTurnsOnScreen" />
 
+    <com.linevall.unsa.preferences.SystemSettingSwitchPreference
+        android:key="doze_on_charge"
+        android:defaultValue="false"
+        android:title="@string/doze_on_charge_title"
+        android:summary="@string/doze_on_charge_summary" />
+
     <Preference
         android:key="edge_light_settings"
         android:title="@string/edge_light_title"
