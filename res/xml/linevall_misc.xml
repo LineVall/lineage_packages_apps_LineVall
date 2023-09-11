@@ -130,6 +130,12 @@
             android:summary="@string/wake_when_plugged_or_unplugged_summary"
             android:defaultValue="@*android:bool/config_unplugTurnsOnScreen" />
 
+    <Preference
+        android:key="edge_light_settings"
+        android:title="@string/edge_light_title"
+        android:summary="@string/edge_light_summary"
+        android:fragment="com.linevall.unsa.fragment.doze.EdgeLightSettings" />
+
 <PreferenceCategory
         android:title="@string/addon" />
 
