@@ -68,4 +68,11 @@
             android:title="@string/heads_up_notifications_enabled_title"
             android:summary="@string/heads_up_notifications_enabled_summary" />
 
+    <com.linevall.unsa.preferences.SystemSettingSwitchPreference
+        android:key="less_boring_heads_up"
+        android:order="25"
+        android:title="@string/less_boring_heads_up_title"
+        android:summary="@string/less_boring_heads_up_summary"
+        android:defaultValue="false" />
+
 </PreferenceScreen>
