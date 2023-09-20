@@ -294,4 +294,9 @@
     <string name="less_boring_heads_up_title">Less boring heads up</string>
     <string name="less_boring_heads_up_summary">Show heads up only for dialer, messaging and alarm app</string>
 
+    <!-- Statusbar left_right padding -->
+    <string name="padding_category">Statusbar padding</string>
+    <string name="statusbar_left_padding">Left padding</string>
+    <string name="statusbar_right_padding">Right padding</string>
+
 </resources>
