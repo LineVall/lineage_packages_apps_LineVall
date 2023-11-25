@@ -65,4 +65,11 @@
     <string name="ok">OK</string>
     <string name="cancel">Cancel</string>
 
+    <!-- Preference -->
+    <string name="gesture">Gesture</string>
+
+     <!-- AOSP Gestures -->
+     <string name="aosp_gesture_preference">System settings</string>
+     <string name="aosp_gesture_summary">Stock gestures included with AOSP</string>
+
 </resources>
