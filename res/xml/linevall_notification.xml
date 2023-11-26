@@ -65,4 +65,10 @@
             android:max="10"
             android:dependency="heads_up_notifications_enabled" />
     </PreferenceCategory>
+
+    <Preference
+        android:key="island_notification"
+        android:title="@string/island_notification_title"
+        android:summary="@string/island_notification_summary"
+        android:fragment="com.linevall.unsa.fragment.Island"/>
 </PreferenceScreen>
