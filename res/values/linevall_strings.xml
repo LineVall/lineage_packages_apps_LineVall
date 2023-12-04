@@ -18,6 +18,9 @@
     <!-- LineVall Customize -->
     <string name="customize_dashboard_title">LineVall Set</string>
 
+    <!-- Status Bar -->
+    <string name="linevall_statbar">Status Bar</string>
+
     <!-- Notification -->
     <string name="linevall_notification">Notification</string>
 

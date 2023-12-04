@@ -19,6 +19,13 @@
     xmlns:lineage="http://schemas.android.com/apk/res-auto"
     android:title="@string/customize_dashboard_title" >
 
+     <!-- Status Bar -->
+     <Preference
+          android:id="@+id/statusbar"
+          android:title="@string/linevall_statbar"
+          android:fragment="com.linevall.unsa.fragment.StatusBar"
+          android:layout="@layout/preference_category_statusbar" />
+
      <!-- Notification -->
      <Preference
           android:id="@+id/notification"
