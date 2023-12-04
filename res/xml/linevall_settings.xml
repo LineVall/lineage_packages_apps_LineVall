@@ -61,4 +61,11 @@
           android:title="@string/linevall_lockscreen"
           android:fragment="com.linevall.unsa.fragment.Lockscreen"
           android:layout="@layout/preference_category_statusbar" />
+
+       <!-- PowerMenu -->
+    <Preference
+           android:key="power_menu"
+           android:title="@string/power_menu_title"
+           android:summary="@string/power_menu_title_summary"
+           android:fragment="com.linevall.unsa.fragment.PowerMenuSettings" />
 </PreferenceScreen>
