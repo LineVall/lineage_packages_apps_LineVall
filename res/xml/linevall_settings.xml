@@ -55,4 +55,10 @@
            android:summary="@string/power_menu_title_summary"
            android:fragment="com.linevall.unsa.fragment.PowerMenuSettings" />
 
+       <!-- Lockscreen -->
+     <Preference
+          android:id="@+id/lockscreen"
+          android:title="@string/linevall_lockscreen"
+          android:fragment="com.linevall.unsa.fragment.Lockscreen"
+          android:layout="@layout/preference_category_statusbar" />
 </PreferenceScreen>

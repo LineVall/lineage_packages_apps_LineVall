@@ -29,6 +29,9 @@
 
     <!-- linevall: Themes -->
     <string name="linevall_theme_title">Themes</string>
+
+    <!-- linevall: Lockscreen -->
+    <string name="linevall_lockscreen">Lockscreen</string>
  
     <!-- Custom seekbar -->
     <string name="custom_seekbar_value">Value: <xliff:g id="v">%s</xliff:g></string>
