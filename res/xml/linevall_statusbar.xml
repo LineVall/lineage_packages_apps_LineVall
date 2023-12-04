@@ -18,5 +18,22 @@
      xmlns:settings="http://schemas.android.com/apk/res-auto"
      xmlns:lineage="http://schemas.android.com/apk/res-auto"
      android:title="@string/linevall_statbar" >
+    <PreferenceCategory
+        android:title="@string/status_bar_clock_title">
 
+        <com.linevall.unsa.preferences.SystemSettingListPreference
+            android:key="status_bar_clock"
+            android:title="@string/status_bar_clock_position_title"
+            android:summary="%s"
+            android:dialogTitle="@string/status_bar_clock_position_title"
+            android:entries="@array/status_bar_clock_position_entries"
+            android:entryValues="@array/status_bar_clock_position_values"
+            android:defaultValue="2" />
+
+        <Preference
+            android:key="clock"
+            android:title="@string/status_bar_clock_title"
+            android:summary="@string/status_bar_clock_summary"
+            android:fragment="com.linevall.unsa.fragment.Clock" />
+    </PreferenceCategory>
 </PreferenceScreen>
