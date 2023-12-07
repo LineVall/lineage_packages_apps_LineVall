@@ -68,6 +68,7 @@
     <!-- Preference -->
     <string name="gesture">Gesture</string>
     <string name="other_category_title">Others</string>
+    <string name="notification_category_title">Notification</string>
 
     <!-- Units -->
     <string name="unit_seconds">seconds</string>
@@ -146,4 +147,12 @@
     <string name="clock_date_position">Date position</string>
     <string name="clock_date_right">Right of time</string>
     <string name="clock_date_left">Left of time</string>
+
+    <!-- Heads up -->
+    <string name="notification_heads_up_title">Heads up</string>
+    <string name="notification_heads_up_summary">Allow pop up notifications</string>
+
+    <!-- Less boring heads up -->
+    <string name="less_boring_heads_up_title">Less boring</string>
+    <string name="less_boring_heads_up_summary">Display popup notifications only for alarm, dialer and messaging app</string>
 </resources>
