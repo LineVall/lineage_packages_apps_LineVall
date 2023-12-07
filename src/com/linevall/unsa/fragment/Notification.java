@@ -39,6 +39,8 @@ import com.android.settings.SettingsPreferenceFragment;
 import com.android.settings.search.BaseSearchIndexProvider;
 import com.android.settingslib.search.SearchIndexable;
 
+import com.linevall.unsa.preferences.CustomSeekBarPreference;
+
 import java.util.Locale;
 import android.text.TextUtils;
 import android.view.View;
@@ -52,11 +54,35 @@ public class Notification extends SettingsPreferenceFragment {
 
     public static final String TAG = "Notification";
 
+    private static final String HEADS_UP_TIMEOUT_PREF = "heads_up_timeout";
+
+    private CustomSeekBarPreference mHeadsUpTimeOut;
+
     @Override
     public void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
 
         addPreferencesFromResource(R.xml.linevall_notification);
+
+        final PreferenceScreen prefScreen = getPreferenceScreen();
+        final Context mContext = getActivity().getApplicationContext();
+
+        mHeadsUpTimeOut = (CustomSeekBarPreference)
+                            prefScreen.findPreference(HEADS_UP_TIMEOUT_PREF);
+        mHeadsUpTimeOut.setDefaultValue(getDefaultDecay(mContext));
+
+    }
+
+    private static int getDefaultDecay(Context context) {
+        int defaultHeadsUpTimeOut = 5;
+        Resources systemUiResources;
+        try {
+            systemUiResources = context.getPackageManager().getResourcesForApplication("com.android.systemui");
+            defaultHeadsUpTimeOut = systemUiResources.getInteger(systemUiResources.getIdentifier(
+                    "com.android.systemui:integer/heads_up_notification_decay", null, null)) / 1000;
+        } catch (Exception e) {
+        }
+        return defaultHeadsUpTimeOut;
     }
 
     public static void reset(Context mContext) {
@@ -67,6 +93,8 @@ public class Notification extends SettingsPreferenceFragment {
                 Settings.System.LESS_BORING_HEADS_UP, 0, UserHandle.USER_CURRENT);
         Settings.System.putIntForUser(resolver,
                 Settings.System.NOTIFICATION_SOUND_VIB_SCREEN_ON, 1, UserHandle.USER_CURRENT);
+        Settings.System.putIntForUser(resolver,
+                Settings.System.HEADS_UP_TIMEOUT, getDefaultDecay(mContext), UserHandle.USER_CURRENT);
     }
 
     @Override
