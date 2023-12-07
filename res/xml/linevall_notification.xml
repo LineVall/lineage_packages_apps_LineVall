@@ -20,6 +20,11 @@
      android:title="@string/linevall_notification" >
     <PreferenceCategory
         android:title="@string/notification_category_title" >
+        <com.linevall.unsa.preferences.SystemSettingSwitchPreference
+            android:key="notification_sound_vib_screen_on"
+            android:title="@string/notification_sound_vib_screen_on_title"
+            android:summary="@string/notification_sound_vib_screen_on_summary"
+            android:defaultValue="true" />
 
         <com.linevall.unsa.preferences.GlobalSettingSwitchPreference
             android:key="heads_up_notifications_enabled"
