@@ -24,4 +24,9 @@
             android:summary="@string/qs_footer_datausage_summary"
             android:defaultValue="true" />
 
+        <com.linevall.unsa.preferences.SystemSettingSwitchPreference
+            android:key="quick_settings_vibrate"
+            android:title="@string/quick_settings_vibrate_title"
+            android:summary="@string/quick_settings_vibrate_summary"
+            android:defaultValue="false"/>
 </PreferenceScreen>
