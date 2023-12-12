@@ -62,6 +62,8 @@ public class StatusBar extends SettingsPreferenceFragment {
 
     public static void reset(Context mContext) {
         ContentResolver resolver = mContext.getContentResolver();
+        Settings.System.putIntForUser(resolver,
+                Settings.System.QS_FOOTER_DATA_USAGE, 0, UserHandle.USER_CURRENT);
     }
 
     @Override

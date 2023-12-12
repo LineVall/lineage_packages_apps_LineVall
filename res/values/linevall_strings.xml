@@ -237,4 +237,8 @@
     <!-- Ripple Effect on lockscreen -->
     <string name="enable_fingerprint_ripple_effect_title">Unlock animation</string>
     <string name="enable_fingerprint_ripple_effect_summary">Show ripple effect on unlock with fingerprint</string>
+
+    <!-- Bluetooth status -->
+    <string name="bluetooth_battery_title">Bluetooth battery status</string>
+    <string name="bluetooth_battery_summary">Display battery status for the connected bluetooth device, if available</string>
 </resources>

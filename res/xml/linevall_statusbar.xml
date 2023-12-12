@@ -49,4 +49,9 @@
             android:summary="@string/status_bar_clock_summary"
             android:fragment="com.linevall.unsa.fragment.Clock" />
     </PreferenceCategory>
+        <com.linevall.unsa.preferences.SystemSettingSwitchPreference
+            android:key="bluetooth_show_battery"
+            android:title="@string/bluetooth_battery_title"
+            android:summary="@string/bluetooth_battery_summary"
+            android:defaultValue="true"/>
 </PreferenceScreen>
