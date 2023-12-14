@@ -20,7 +20,7 @@
      android:title="@string/linevall_statbar" >
     <PreferenceCategory
         android:title="@string/statusbar_items_category"
-        android:key="statusbar_items_category">
+        android:key="icons_category_title">
 
         <Preference
             android:title="@string/statusbar_items_title"
@@ -49,6 +49,17 @@
             android:summary="@string/status_bar_clock_summary"
             android:fragment="com.linevall.unsa.fragment.Clock" />
     </PreferenceCategory>
+
+    <PreferenceCategory
+        android:title="@string/network_icons_category_title">
+
+        <Preference
+            android:key="network_traffic_settings"
+            android:title="@string/network_traffic_settings_title"
+            android:summary="@string/network_traffic_settings_summary"
+            android:fragment="com.linevall.unsa.fragment.NetworkTrafficSettings" />
+    </PreferenceCategory>
+
         <com.linevall.unsa.preferences.SystemSettingSwitchPreference
             android:key="bluetooth_show_battery"
             android:title="@string/bluetooth_battery_title"
