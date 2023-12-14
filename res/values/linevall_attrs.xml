@@ -24,6 +24,14 @@
         <attr name="allowEditText" format="boolean" />
     </declare-styleable>
 
+    <!-- Base attributes available to ProperSeekBarPreference. -->
+    <declare-styleable name="ProperSeekBarPreference">
+        <attr name="interval" format="integer" />
+        <attr name="showSign" format="boolean" />
+        <attr name="units" format="string|reference" />
+        <attr name="continuousUpdates" format="boolean" />
+    </declare-styleable>
+
         <!-- Value to pass to callback when restore button is pressed -->
     <declare-styleable name="ColorPickerPreference">
         <attr name="defaultColorValue" format="integer" />
